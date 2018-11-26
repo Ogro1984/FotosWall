@@ -1,12 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+/*moviles*/
+@media screen and (max-width: 900px){
+
+      .contenido {display:flex;
+                  width:100%;
+                  text-align: center;
+                  animation: MiAnimacion;
+                  animation-duration: 1s;
+                  flex-flow: column;
+
+
+
+                }
+
+      .encabezado {
+                  margin-left: 10px;
+                  font-size: 30px;
+                  text-shadow: 2px 2px 2px #02010a;}
+
+      .menu       {
+
+                  font-size: 20px;
+                  margin-top: 20px;}}
+
+
+/*desktop*/
+@media screen and (min-width: 900px){
+
+
+      .contenido {
+
+                  width:900px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: flex;
+                  animation: MiAnimacion;
+                  animation-duration: 1s;
+                  flex-flow: column;}
+
+      .encabezado {
+
+                    font-size: 30px;
+                    text-shadow: 2px 2px 2px #02010a;
+                    margin-left: 10px;
+                    float: left;
+                    background-color: inherit;}
+
+        .menu{
+
+                    float:right;
+                    font-size: 20px;
+                    color: white;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    background-color: inherit;}}
+
+@keyframes MiAnimacion {
+            0% {margin-top: 150%}
+            60% {margin-top: -5%}
+            100%{margin-top: 0%}}
+
 body{
-font-family: font-family: 'Dancing Script', cursive;
-background-color: #02010a;
-font
-}
+
+          font-family:'Dancing Script',Verdana, Sans-serif;
+          background-color: #02010a;}
 
 header{
+            background-color: #5b7989;
+            color:white;
+            width: 100%;
+            border-radius:10px 10px 0px 0px;}
 
-          background-color: #5b7989;
 
 
-   }
+
+/*configuracion de texto de menu*/
+
+.link:link{color:inherit;}
+.link:visited{color:inherit;}
+.link{margin-left: 10px;}
+.link:active{color:inherit}
+
+
+/*defino configuracones generales para la seccion*/
+
+section{
+          display:flex;
+
+          width:900px;
+          background-color: #82c3a6;
+          flex-flow: column;
+      }
+
+img{ -webkit-box-shadow: 20px 20px 0px 0px #02010a;
+      box-shadow: 2px 2px 0px 0px #02010a;}
+
+/*configuracion imagen principal*/
+.imagen_primaria{align-self: center;margin-top: 2%;margin-bottom: 2%;}
+
+/*configuracion imagenes secundarias*/
+
+.imagenes_sec{padding-top: 2%;padding-bottom: 2%; padding-right: 1%;padding-left: 1%;flex-flow: row; width: 100%;background-color: #d5c75f; border: 1px;border-style: solid;}
+
+.imagen2{ width: 45%;}
+.imagen3{width: 45%;float: right;}
