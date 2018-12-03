@@ -114,8 +114,8 @@ section{
           flex-flow: column;
       }
 
-/*img{ -webkit-box-shadow: 20px 20px 0px 0px #02010a;
-      box-shadow: 2px 2px 0px 0px #02010a;}*/
+img{ -webkit-box-shadow: 20px 20px 0px 0px #02010a;
+      box-shadow: 2px 2px 0px 0px #02010a;}
 
 footer{ display:flex;background-color: #C6d5c5; border-radius: 0 0 10px 10px;flex-flow: row;}
 
